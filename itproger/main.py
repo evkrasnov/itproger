@@ -32,9 +32,7 @@ try:
 except ModuleNotFoundError:
     print('Файл не найден!')
 
-
 passport = {'Фамилия': 'Иванов', 'Имя': 'Юрий', 'Отчество': 'Петрович', 'Пол': 'мужской'}
 
 for key, values in passport.items():
     print(key, "-", values)
-
