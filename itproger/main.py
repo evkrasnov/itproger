@@ -34,5 +34,6 @@ except ModuleNotFoundError:
 
 passport = {'Фамилия': 'Иванов', 'Имя': 'Юрий', 'Отчество': 'Петрович', 'Пол': 'мужской'}
 
+
 for key, values in passport.items():
     print(key, "-", values)
